@@ -6,13 +6,13 @@ import GetDerivedStateFromProps from "./components/GetDerivedStateFromProps";
 import ComponentDidMount from "./components/ComponentDidMount";
 import ShouldComponentUpdate from "./components/ShouldComponentUpdate";
 import ES6 from "./components/ES6.js";
-
+import SpreadOperator from "./components/SpreadOperator.js";
 function App() {
   return (
     <div>
       <h1>Start React 200</h1>
       <p>html in jsx</p>
-      <ES6 />
+      <SpreadOperator />
     </div>
   );
 }
