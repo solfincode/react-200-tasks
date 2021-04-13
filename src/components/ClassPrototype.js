@@ -16,7 +16,7 @@ export default class ClassPrototype extends Component {
       };
       return count;
     })();
-    let countProto = new countFunc("from prototype " + "100");
+    let countProto = new countFunc("from prototype 100");
     countProto.showNum();
     //es6 class
     class CountClass {
@@ -29,7 +29,7 @@ export default class ClassPrototype extends Component {
     }
 
     //init instance
-    let count = new CountClass("from class " + "hundred");
+    let count = new CountClass("from class hundred");
     count.showNum();
   }
   render() {
