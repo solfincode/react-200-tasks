@@ -8,7 +8,9 @@ export default class ES6 extends Component {
   componentDidMount() {
     let language = "javascript";
     let country = "USA";
-    console.log(`language is ${language} country is ${country}`);
+    const name = "David";
+    console.log(`language is ${language} and ${name} lives in ${country}`);
+    console.log("const don't allow redeclaration and let allow redeclaration");
   }
   render() {
     return <h2>this is es6 template literal</h2>;
